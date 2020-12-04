@@ -1,9 +1,19 @@
 {
-    "name": "sandalschurch/ccb-interface",
+    "name": "sandals/ccb-interface",
     "description": "CCB API Interface",
     "scripts": {
-	"test": "./vendor/bin/phpunit --colors=always"
+       "test": "./vendor/bin/phpunit --colors=always"
     },
+    "authors": [
+        {
+            "name": "Bryan Orozco",
+            "email": "bryanorozco@sandalschurch.com"
+        },
+        {
+            "name": "Thomas Renck",
+            "email": "thomasrenck@sandalschurch.com"
+        }
+    ],
     "autoload":{
         "psr-4": {
             "CCBI\\": "src/",

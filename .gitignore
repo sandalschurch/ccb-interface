@@ -1,4 +1,5 @@
 composer.phar
+.DS_Store
 
 # Composer
 /vendor
